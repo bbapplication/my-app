@@ -1,6 +1,6 @@
 node {
     def mvnHome
-    stage('Preparation') { // for display purposes
+    stage('Preparation') { 
       
         git 'https://github.com/bbapplication/my-app.git'
         
