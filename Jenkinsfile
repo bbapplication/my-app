@@ -3,7 +3,6 @@ node {
     stage('Preparation') { 
       
         git 'https://github.com/bbapplication/my-app.git'
-        
         mvnHome = tool 'maven'
     }
     stage('Build') {
